@@ -27,4 +27,4 @@ LIB文件是不对外公开的，可以很好的保存源代码。 在vs使用�
 
 + 例如 ``GDALDataset* poSrcDS; GDALDataset* poDstDS; GByte* buffTmp; `` 等一些图像操作参数，在运行过程中会申请大量内存资源，所以在程序运行最后要及时进行资源的释放 ``GDALClose(poDstDS); GDALClose(poSrcDS); CPLFree(buffTmp);``  
 
-+ 好好学习，天天向上~  
++ 好好学习，天天向上~  不听不听
